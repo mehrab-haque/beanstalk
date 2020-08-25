@@ -4,7 +4,7 @@ const app = express()
 
 app.get('/login',(req,res)=>{
   res.send({
-    status:'login'
+    status:'login_updated'
   })
 })
 
